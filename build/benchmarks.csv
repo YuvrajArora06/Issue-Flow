@@ -1,0 +1,13 @@
+algorithm,input_size,time_ms,comparisons,operations,auxiliary_bytes,quality
+Merge sort,100,0,860,1344,12800,same priority order as quick sort
+Quick sort,100,9.624,961,1287,12800,same priority order as merge sort
+Maximum bipartite matching,100,0.826,28535,1136,130,26 issues matched
+Greedy capacity allocation,100,0,4515,1397,12800,53 issues allocated
+Merge sort,500,2.001,7349,8976,64000,same priority order as quick sort
+Quick sort,500,3.097,9003,8022,64000,same priority order as merge sort
+Maximum bipartite matching,500,42.983,3182465,27508,630,126 issues matched
+Greedy capacity allocation,500,20.275,95700,9240,64000,264 issues allocated
+Merge sort,1000,3.91,17107,19952,128000,same priority order as quick sort
+Quick sort,1000,6.176,21637,20736,128000,same priority order as merge sort
+Maximum bipartite matching,1000,447.945,25080636,109575,1255,251 issues matched
+Greedy capacity allocation,1000,24.824,368855,20476,128000,524 issues allocated

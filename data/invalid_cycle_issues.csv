@@ -1,0 +1,3 @@
+id,title,description,priority,effort,module,skills,dependencies,labels
+I1,Authentication failure,Sample issue with a cycle,9,3,Auth,Auth,I2,bug|authentication
+I2,Backend failure,Sample issue with a cycle,8,4,Backend,Backend,I1,bug|backend

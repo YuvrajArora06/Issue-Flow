@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "IssueFlow MinGW C++17",
+      "compilerPath": "C:/MinGW/bin/g++.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}/include"
+      ],
+      "compilerArgs": [
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic"
+      ]
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,19 @@
+algorithm,input_size,time_ms,comparisons,operations,auxiliary_bytes,quality
+Merge sort,100,0,860,1344,14000,same priority order as quick sort
+Quick sort,100,0,961,1287,14000,same priority order as merge sort
+Maximum bipartite matching,100,0,28535,1136,130,26 issues matched
+Greedy capacity allocation,100,0,4515,1397,14000,53 issues allocated
+Merge sort (sorted input),100,0,1068,1344,14000,adversarial order remains correct
+Quick sort (sorted input),100,0,14850,15147,14000,adversarial pivot order remains correct
+Merge sort,500,2.166,7349,8976,70000,same priority order as quick sort
+Quick sort,500,2.96,9003,8022,70000,same priority order as merge sort
+Maximum bipartite matching,500,52.372,3182465,27508,630,126 issues matched
+Greedy capacity allocation,500,9.864,95700,9240,70000,264 issues allocated
+Merge sort (sorted input),500,0,6816,8976,70000,adversarial order remains correct
+Quick sort (sorted input),500,100.633,374250,375747,70000,adversarial pivot order remains correct
+Merge sort,1000,0,17107,19952,140000,same priority order as quick sort
+Quick sort,1000,0,21637,20736,140000,same priority order as merge sort
+Maximum bipartite matching,1000,449.205,25080636,109575,1255,251 issues matched
+Greedy capacity allocation,1000,25.336,368855,20476,140000,524 issues allocated
+Merge sort (sorted input),1000,7.977,15132,19952,140000,adversarial order remains correct
+Quick sort (sorted input),1000,389.585,1498500,1501497,140000,adversarial pivot order remains correct

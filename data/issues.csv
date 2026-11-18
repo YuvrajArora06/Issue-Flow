@@ -1,0 +1,6 @@
+id,title,description,priority,effort,module,skills,dependencies,labels
+I1,Login crash,Authentication fails after a valid login request,10,4,Auth,Auth,-,bug|critical
+I2,Memory leak,Backend worker memory grows during long jobs,8,8,Backend,Backend,I1,bug|performance
+I3,UI alignment,Settings page controls do not align on narrow displays,3,2,Frontend,Frontend,-,ui|good-first-issue
+I4,DB timeout,Checkout query reaches its timeout under load,9,7,Database,Database,I1,bug|database
+I5,Cache metrics,Add a dashboard for cache-hit telemetry,5,3,Backend,Backend,-,enhancement|observability

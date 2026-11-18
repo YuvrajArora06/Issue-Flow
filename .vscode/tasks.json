@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build IssueFlow CLI",
+      "type": "shell",
+      "command": "C:/MinGW/bin/g++.exe",
+      "args": [
+        "-std=c++17",
+        "-Werror",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Iinclude",
+        "src/domain.cpp",
+        "src/algorithms.cpp",
+        "src/main.cpp",
+        "-o",
+        "build/issueflow_cli.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Test IssueFlow",
+      "type": "shell",
+      "dependsOn": "Build IssueFlow Tests",
+      "command": "${workspaceFolder}/build/issueflow_tests.exe",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build IssueFlow Tests",
+      "type": "shell",
+      "command": "C:/MinGW/bin/g++.exe",
+      "args": [
+        "-std=c++17",
+        "-Werror",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Iinclude",
+        "src/domain.cpp",
+        "src/algorithms.cpp",
+        "tests/test_issueflow.cpp",
+        "-o",
+        "build/issueflow_tests.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

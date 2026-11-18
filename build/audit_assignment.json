@@ -1,0 +1,9 @@
+{
+  "assignments": [
+    {"developer_id": "D1", "issue_id": "I1", "effort": 4},
+    {"developer_id": "D2", "issue_id": "I3", "effort": 2},
+    {"developer_id": "D3", "issue_id": "I2", "effort": 8}
+  ],
+  "unmatched_issue_ids": ["I4", "I5"],
+  "remaining_capacity": {"D1": 4, "D2": 3, "D3": 2}
+}
