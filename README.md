@@ -22,7 +22,7 @@ cmake --build build --config Release
 ctest --test-dir build -C Release --output-on-failure
 ```
 
-On single-configuration generators, the executables are usually `build/issueflow_cli` and `build/issueflow_tests`. On Visual Studio generators, use `build/Release/`.
+On single-configuration generators, the executables are usually  and `build/issueflow_tests`. On Visual Studio generators, use `build/Release/`.
 
 ### Direct MinGW build
 
